@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamoppgave6</title>
+
+    <style>
+        body {
+            color: white;
+            background-color: rgb(41, 41, 41);
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            font-size: x-large;
+            font-style: bold;
+            padding: 20pc;
+            
+        }
+
+        .grid-item {
+            border: solid 1px;
+
+        }
+    
+        
+    
+    </style>
+</head>
+<body>
+    <h1>Teamoppgave 6</h1><hr>
+    <br>
+
+    <audio id="sound1" src="sound1.mp3"></audio>
+    
+    <div class="grid-container">
+    <div id="lyd1" onclick="document.getElementById('sound1').play()" class="grid-item">1</div>
+    <div id="lyd2" onclick="lagLyd" class="grid-item">2</div>
+    <div id="lyd3" onclick="lagLyd" class="grid-item">3</div>
+    <div id="lyd4" onclick="lagLyd" class="grid-item">4</div>
+    <div id="lyd5" onclick="lagLyd" class="grid-item">5</div>
+    <div id="lyd6" onclick="lagLyd" class="grid-item">6</div>
+    </div>
+
+    <script>
+        function lagLyd() {
+            
+            lyd="????";
+
+            // open=("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        }
+        
+        
+    </script>
+</body>
+</html>

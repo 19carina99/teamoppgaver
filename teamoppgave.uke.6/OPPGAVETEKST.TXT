@@ -1,0 +1,57 @@
+Teamoppgave 6
+----------------------------------------------------------------------------------------------------------
+
+Hvordan det skal se ut: 
+
+6 div med onclick
+
+forskjellige farger på alle sammen
+
+alle div'er sentrert 
+
+div skal være 3x2
+
+bakgrunnsfarge som dekker hele bakgrunn
+
+bankkort størrelse på hver div
+
+
+---------------------------------------------------------------------------------------------------------
+
+Must have: 
+
+1. div'er med lyd
+
+2. farger på div
+
+3. bakgrunns bilde
+
+
+---------------------------------------------------------------------------------------------------------
+
+Nice to have: 
+
+
+1. valgt div endrer farge
+
+2. Rickrolle på et eller annet vis
+
+3. Fortsette Terjememe ved å vise terje på evt alt på hele siden (div, bakgrunn) etter rickroll funksjon fyrer
+
+4. Star wars lyd og bilde på en ekstra div?
+
+5. Grid?
+
+
+---------------------------------------------------------------------------------------------------------
+
+Hvem jobber med hva:
+
+
+Magnus: div med onclick, function, være med på lyd, 
+
+Mago: Indian tech support (NO YOU BLOODY)
+
+Carina: star wars ting, function, endre farge på divene
+
+Marius: CSS, background color, function generelt
