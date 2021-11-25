@@ -17,19 +17,50 @@
         .grid-container {
             display: grid;
             grid-template-columns: auto auto auto;
-            font-size: x-large;
+            font-size: 50px;
             font-style: bold;
             padding: 20pc;
             
         }
 
-        .grid-item {
+        .grid-item1 {
+            color:black;
             border: solid 1px;
+            background-color: white;
+            
 
         }
-        .whatever1 {
-            color:white;
+        .grid-item2 {
+            color:black;
+            border: solid 1px;
+            background-color:red;
+ 
         }
+        .grid-item3 {
+            color:black;
+            border: solid 1px;
+            background-color:green;
+ 
+        }
+        .grid-item4 {
+            color:black;
+            border: solid 1px;
+            background-color:yellow;
+ 
+        }
+        .grid-item5 {
+            color:black;
+            border: solid 1px;
+            background-color:blue;
+ 
+        }
+        .grid-item6 {
+            color:black;
+            border: solid 1px;
+            background-color:purple;
+ 
+        }
+
     
         
     
@@ -69,12 +100,12 @@
         function view() {
         document.getElementById('hovedDiv').innerHTML = `
         <div class="grid-container">
-        <div onclick="whatever1()" class="grid-item">1</div>
-        <div onclick="whatever2()" class="grid-item">2</div>
-        <div onclick="whatever3()" class="grid-item">3</div>
-        <div onclick="whatever4()" class="grid-item">4</div>
-        <div onclick="whatever5()" class="grid-item">5</div>
-        <div onclick="whatever6()" class="grid-item">6</div>
+        <div onclick="whatever1()" class="grid-item1">1en</div>
+        <div onclick="whatever2()" class="grid-item2">2to</div>
+        <div onclick="whatever3()" class="grid-item3">3tre</div>
+        <div onclick="whatever4()" class="grid-item4">4fire</div>
+        <div onclick="whatever5()" class="grid-item5">5fem</div>
+        <div onclick="whatever6()" class="grid-item6">6seks</div>
         </div>
         <audio id="1" src="../sounds/bubbles.mp3" type="audio/mp3"></audio>
         <audio id="2" src="../sounds/clay.mp3" type="audio/mp3"></audio>
