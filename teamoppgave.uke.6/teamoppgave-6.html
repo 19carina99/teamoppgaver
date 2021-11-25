@@ -34,16 +34,25 @@
 </head>
 <body>
     <h1>Teamoppgave 6</h1><hr>
+    <p>WWMD = What would Mago do? absolutely nothing i tell you, besides take a bolle..KEKW open.gif=(GOTTIM)</p>
     <br>
 
-    <button id="sound1" src="bubbles.mp3"></button>
-
-    <audio controls>
-        <source src="bubbles.mp3" type="audio/mp3">
+    <!--<audio controls>
+        <source src="../sounds/bubbles.mp3" type="audio/mp3">
       </audio>
+     <audio>
+        <source src="../sounds/bubbles.mp3" type="audio/mp3">
+        <source src="../sounds/clay.mp3" type="audio/mp3"> 
+        <source src="../sounds/confetti.mp3" type="audio/mp3"> 
+        <source src="../sounds/glimmer.mp3" type="audio/mp3"> 
+        <source src="../sounds/moon.mp3" type="audio/mp3"> 
+        <source src="../sounds/ufo.mp3" type="audio/mp3">  
+      </audio> -->
+      <audio id="sound1" src="../sounds/bubbles.mp3" type="audio/mp3" preload="auto"></audio>
+
     
     <div class="grid-container">
-    <div id="lyd1" onclick="document.getElementById('sound1').play()" class="grid-item">1</div>
+    <div id="lyd1" onclick="document.getElementById('sound1').play();" class="grid-item">1</div>
     <div id="lyd2" onclick="lagLyd" class="grid-item">2</div>
     <div id="lyd3" onclick="lagLyd" class="grid-item">3</div>
     <div id="lyd4" onclick="lagLyd" class="grid-item">4</div>
@@ -53,8 +62,7 @@
 
     <script>
         function lagLyd() {
-            
-            lyd="????";
+            //document.getElementById('sound1').play();
 
             // open=("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
         }
