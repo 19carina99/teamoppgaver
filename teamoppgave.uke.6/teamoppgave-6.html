@@ -58,7 +58,7 @@
     <script>
         // model
         
-        
+        //var lydosv = hovedDiv.innerHTML`<audio id="sound6" src="../sounds/ufo.mp3" type="audio/mp3" preload="auto"></audio>`
 
 
         //view
@@ -66,19 +66,19 @@
         function view() {
         document.getElementById('hovedDiv').innerHTML = `
         <div class="grid-container">
-        <div onclick="whatever('1')" class="grid-item">1</div>
-        <div onclick="document.getElementById('sound2').play();" class="grid-item">2</div>
-        <div onclick="document.getElementById('sound3').play();" class="grid-item">3</div>
-        <div onclick="document.getElementById('sound4').play();" class="grid-item">4</div>
-        <div onclick="document.getElementById('sound5').play();" class="grid-item">5</div>
-        <div onclick="document.getElementById('sound6').play();" class="grid-item">6</div>
+        <div onclick="whatever(1)" class="grid-item">1</div>
+        <div onclick="whatever(2)" class="grid-item">2</div>
+        <div onclick="whatever(3)" class="grid-item">3</div>
+        <div onclick="whatever(4)" class="grid-item">4</div>
+        <div onclick="whatever(5)" class="grid-item">5</div>
+        <div onclick="whatever(6)" class="grid-item">6</div>
         </div>
-        <audio src="../sounds/bubbles.mp3" type="audio/mp3" preload="auto"></audio>
-        <audio src="../sounds/clay.mp3" type="audio/mp3" preload="auto"></audio>
-        <audio src="../sounds/confetti.mp3" type="audio/mp3" preload="auto"></audio>
-        <audio src="../sounds/glimmer.mp3" type="audio/mp3" preload="auto"></audio>
-        <audio src="../sounds/moon.mp3" type="audio/mp3" preload="auto"></audio>
-        <audio src="../sounds/ufo.mp3" type="audio/mp3" preload="auto"></audio>
+        <audio id="1" src="../sounds/bubbles.mp3" type="audio/mp3"></audio>
+        <audio id="2" src="../sounds/clay.mp3" type="audio/mp3"></audio>
+        <audio id="3" src="../sounds/confetti.mp3" type="audio/mp3"></audio>
+        <audio id="4" src="../sounds/glimmer.mp3" type="audio/mp3"></audio>
+        <audio id="5" src="../sounds/moon.mp3" type="audio/mp3"></audio>
+        <audio id="6" src="../sounds/ufo.mp3" type="audio/mp3"></audio>
         `;
         }   
 
@@ -86,8 +86,58 @@
         //controller
 
         function whatever (value){
-            hovedDiv.innerHTML ('1').play();
-            lyd1.innerHTML += `${value}`;} 
+            document.getElementById('1').play();
+            // document.getElementById('2').play();
+            // document.getElementById('3').play();
+            // document.getElementById('4').play();
+            // document.getElementById('5').play();
+            // document.getElementById('6').play();
+        } 
+        function whatever (value){
+            document.getElementById('2').play();
+            // document.getElementById('2').play();
+            // document.getElementById('3').play();
+            // document.getElementById('4').play();
+            // document.getElementById('5').play();
+            // document.getElementById('6').play();
+        
+        } 
+        function whatever (value){
+            document.getElementById('1').play();
+            // document.getElementById('2').play();
+            // document.getElementById('3').play();
+            // document.getElementById('4').play();
+            // document.getElementById('5').play();
+            // document.getElementById('6').play();
+        
+        } 
+        function whatever (value){
+            document.getElementById('1').play();
+            // document.getElementById('2').play();
+            // document.getElementById('3').play();
+            // document.getElementById('4').play();
+            // document.getElementById('5').play();
+            // document.getElementById('6').play();
+        
+        } 
+        function whatever (value){
+            document.getElementById('1').play();
+            // document.getElementById('2').play();
+            // document.getElementById('3').play();
+            // document.getElementById('4').play();
+            // document.getElementById('5').play();
+            // document.getElementById('6').play();
+        
+        } 
+        function whatever (value){
+            document.getElementById('1').play();
+            // document.getElementById('2').play();
+            // document.getElementById('3').play();
+            // document.getElementById('4').play();
+            // document.getElementById('5').play();
+            // document.getElementById('6').play();
+        
+        } 
             
 
 
