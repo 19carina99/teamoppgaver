@@ -13,7 +13,7 @@ div skal være 3x2
 
 bakgrunnsfarge som dekker hele bakgrunn
 
-bankkort størrelse på hver div
+
 
 
 ---------------------------------------------------------------------------------------------------------
